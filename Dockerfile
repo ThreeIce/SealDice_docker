@@ -7,4 +7,5 @@ RUN apt-get update \
 WORKDIR /bin/SealDice
 VOLUME [ "/bin/SealDice/data" ]
 EXPOSE 3211
+RUN chmod +x ./sealdice-core
 CMD ["./sealdice-core"]
