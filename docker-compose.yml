@@ -4,7 +4,7 @@ services:
     build: .
     # network_mode: "host"
     ports:
-     - "192.168.100.1:3211:3211"
+     - "3211:3211"
     volumes:
      - "dice_data:/bin/SealDice/data"
     restart: unless-stopped
